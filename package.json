@@ -1,7 +1,8 @@
 {
-  "name": "millow",
+  "name": "jerry",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jiachintan.github.io/realestate_web3",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,22 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.7.3",
-    "hardhat": "^2.12.0"
+    "dotenv": "^17.2.3",
+    "gh-pages": "^6.3.0",
+    "hardhat": "^2.27.2"
+  },
+  "description": "- Solidity (Writing Smart Contracts & Tests) - Javascript (React & Testing) - [Hardhat](https://hardhat.org/) (Development Framework) - [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction) - [React.js](https://reactjs.org/) (Frontend Framework)",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiachintan/realestate_web3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiachintan/realestate_web3/issues"
   }
 }

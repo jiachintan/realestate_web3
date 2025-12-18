@@ -29,3 +29,15 @@ In a separate terminal execute:
 
 ### 7. Start frontend
 `$ npm run start`
+
+### 2025-12-18
+Deploy to github pages
+1. Update package.json by 
+Add Homepage
+Add Scripts: Add predeploy and deploy to the scripts section.
+2. Install the Deployment Dependency
+npm install gh-pages --save-dev
+3. Deploy to GitHub Pages
+npm run deploy
+4. Final GitHub Settings
+Under Build and deployment > Branch, ensure it is set to gh-pages and the folder is /(root)
